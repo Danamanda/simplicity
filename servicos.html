@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços Simplicity</title> <!-- Geralmente limitado a 60 caracteres, é importante pq no Google aparecerá essa descrição para clicar no site... qto melhor escrito mais atenção chama -->
+    
+    <!-- Para inserir um favicon - entrar em site como: websiteplanet.com.pt que é um gerador de favicon. Favicon é o símbolo que aparece no guia do site para identificar ele. Importantíssimo ter -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <!-- Inserindo tags meta -->
+    <meta name="description" content="Serviços oferecidos pela Simplicity"> <!-- nao ultrapassar 160 caracteres, pois gera ... no google por exemplo, essa descricao aparece abaixo do title o google, é importante ter a descriñ{ao pois se nao coloca o google gera uma que pode nao ter nada a ver com o assunto-->
+
+    <meta name="keywords" content="serviços, criação de sites, design para web, web design"> <!-- colocar palavra chave, pode colocar virgulas e escrever mais palavras chaves - qto menos palavras chaves melhor pois quanto mais palavras menos relevante fica -->
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Instalando plugin lightbox -->
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
+    <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+
+
+</head>
+<body>
+
+    <header>
+        <div class="limitador">
+            <h1> <a href="index.html">Simplicity</a> </h1>
+        
+            <nav>
+              <h2>
+                  <a href="" class="icone">
+                      Menu &equiv;
+                  </a> 
+                </h2>
+              <ul class="menu">
+                 <li><a href="index.html" title="página inicial">Home</a></li>
+                 <li><a href="produtos.html" title="conheça os nossos produtos">Produtos</a></li>
+                  <li><a href="servicos.html" title="da criação do site a loja virtual, conheça os nossos serviços">Serviços</a></li>
+                  <li><a href="contato.html" title="fale com a equipe Simplicity">Contato</a></li>
+              </ul>
+         </nav> 
+        </div>
+    </header>
+
+    <main> <!-- Inicio do conteúdo -->
+       <article class="limitador conteudo">
+           <h2>Serviços</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut sit iste corporis inventore laboriosam. Voluptas doloremque beatae quam et optio. Deserunt fuga ullam at qui aspernatur eum, minus sequi ab.</p>
+
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi enim praesentium nesciunt nisi ipsum odio aliquid ad laborum sit ratione voluptatum alias amet sunt iste accusantium, dolore cupiditate voluptates ullam?</p>
+
+           <p>Veniam asperiores nam nesciunt deserunt saepe eveniet id exercitationem vel voluptatum, magni debitis illum unde porro corrupti ducimus iusto fugit harum eaque necessitatibus sint. Nihil accusantium ex voluptate fugit nulla.</p>
+
+           <figure>
+            <a href="imagens/desenvolvimento-web.jpg" title="web design" data-lightbox="galeria"  data-title="web design"><img src="imagens/desenvolvimento-web-mini.jpg" alt="web design"></a> <!-- data-lightbox é obrigatorio, se em todas as fotos colocar o mesmo nome, no caso deste galeria, quando as fotos forem abertas no site aparecerá foto 1 de 4 (no caso), e cria uma setinha para ir para a proxima foto... se cada data-lightbox tiver um nome diferente teria que abrir 1 foto por vez, nao deixa ir pra proxima.  Para alterar do ingles para o portugues (Image 1 of 4 - para - Imagem 1 de 4... ir no arquivo JS que pegamos do plugin e altera)-->
+
+            <a href="imagens/design-grafico.jpg" title="design gráfico" data-lightbox="galeria" data-title="máquina"><img src="imagens/design-grafico-mini.jpg" alt="design gráfico"></a>
+
+            <a href="imagens/marketing-digital.jpg" title="marketing digital" data-lightbox="galeria" data-title="marketing"><img src="imagens/marketing-digital-mini.jpg" alt="marketing digital"></a>
+
+            <a href="imagens/consultoria-treinamento.jpg" title="consultoria" data-lightbox="galeria" data-title="consultoria"><img src="imagens/consultoria-treinamento-mini.jpg" alt="consultoria"></a>
+
+        
+           </figure>
+         
+
+
+
+       </article>
+    </main> <!-- Fim do conteúdo -->
+
+    <footer>
+        <p>Simplicity é um site fictício desenvolvido por Senac-Penha &copy;2021 </p>
+    </footer>
+    
+
+   <script src="js/menu.js"></script>
+</body>
+</html>
